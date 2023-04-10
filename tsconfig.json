@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "esModuleInterop": true,
+      "outDir": "./dist",
+      "rootDir": "./app",
+      "sourceMap": true,
+      "strict": true,
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true
+    },
+    "include": [
+      "./app/**/*.ts"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
+  
